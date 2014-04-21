@@ -599,6 +599,53 @@ SUB part / Global Val updown
             color: #ff1674;
             text-decoration: underline !important;
           }
+          .faq h4{margin-bottom: 40px;}
+          .faq h5{color: #ff1674;font-weight: bold;}
+          .faq .question{font-size: 0.9em; margin-bottom: 30px;}
+          .faq li:hover{background: #ddf5ff;}
+          .faq .allquestions {font-size: 0.9em;}
+          .faq button{margin: 20px 0;}
+          .plan .sitetable p{
+            text-align: center;
+          }
+          .plan .sitetable {margin-bottom: 20px;}
+          .plan .sitetable .table_me{ font-size: 0.8em;}
+          .bg-blue {
+            background: #eaf9ff; 
+            text-align: center;
+            padding: 10px 0;
+          }
+          .plan .bg-red{
+            background: #fff0f0; 
+            text-align: center;
+            padding: 10px 0;
+          }
+          .plan .bg-red a {
+            color: #d05f5f;
+          }
+          .plan .bg-danger,
+          .plan .bg-danger a{
+            color: #964545 !important;
+          }
+          .plan .bg-primary,
+          .plan .bg-primary a{
+            color: #fff !important;
+          }
+          .plan .bg-danger a,
+          .plan .bg-primary a{
+            text-decoration: none;
+            font-weight: normal;
+          }
+          .plan .bg-danger a:hover,
+          .plan .bg-primary a:hover{
+            text-decoration: underline;
+          }
+          .plan .col-md-4,
+          .plan .col-md-6{
+            padding-left: 0;
+            padding-right: 0;
+          }
+
 
 
 /* **********************************
