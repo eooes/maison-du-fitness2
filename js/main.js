@@ -8,6 +8,7 @@ $(".rslides").responsiveSlides({
         speed: 500,
         namespace: "centered-btns"
       });
+    
 });
 
 

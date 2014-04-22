@@ -645,8 +645,62 @@ SUB part / Global Val updown
             padding-left: 0;
             padding-right: 0;
           }
+          .mail h2{margin-bottom: 30px;}
+          .mail .mailbox {
+            width:80%;
+            margin:auto;
+          }
+          .mail .panel-body{
+            border: 1px solid #428bca;
+            padding: 10px;
+          }
+          .mail .panel-body p{
+            font-size: 0.9em;
+            color: #888;
+          }
+          .mail .btn {
+            -webkit-border-radius: 0 14px 14px 0;
+            -moz-border-radius: 0 14px 14px 0;
+            border-radius: 0 14px 14px 0;
+          }
+          .mail .xxbb {
+            -webkit-border-radius: 14px 0 0 14px;
+            -moz-border-radius: 14px 0 0 14px;
+            border-radius: 14px 0 0 14px;
+          }
+          .mailbox h6 {color: #ff6666;}
+          .mailbox .row {margin: 0;}
+          .mailbox .col-xs-2,
+          .mailbox .col-xs-9{padding: 0;}
+          .mail .panel-title {font-weight: bold;}
+          .mailbox .panel { border: none;}
 
-
+            .contact .address,
+            .contact .phone {
+                text-align: center;
+                padding: 20px 0;
+            }
+            .contact .address:hover,
+            .contact .phone:hover {
+                    background: #e3f5ff;
+            }
+            .contact span{
+                text-align: center;
+                border-radius: 50%;
+                color: #fff !important;
+                background: #ff1674;
+                font-weight: bold;
+                padding-top: 10px;
+                color: white;
+                width: 50px;
+                height: 50px;
+            }
+            .contact .col-md-3{
+                padding-left:15px !important;
+            }
+            .contact .row h6 {
+                color:#ff6666;
+            }
 
 /* **********************************
 footer
