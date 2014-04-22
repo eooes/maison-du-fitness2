@@ -698,9 +698,53 @@ SUB part / Global Val updown
             .contact .col-md-3{
                 padding-left:15px !important;
             }
+            .contact .row {margin-top: 20px;}
             .contact .row h6 {
                 color:#ff6666;
             }
+            .avis .box {
+                width: 80%;
+                text-align: center;
+                margin: auto;
+                padding-bottom: 10px;
+            }
+            .avis h4 {margin: 30px 0 20px 0;}
+            .avis .boxx {
+                width: 80%;
+                text-align: center;
+                margin: auto;
+                padding-bottom: 30px;
+            }
+            .avis .avis_r span,
+            .avis .c_right span{ color: gold;}
+            .avis .avis_l {text-align: right;}
+            .avis .avis_l,
+            .avis .avis_r{
+                width: 50%;
+                float: left;
+            }
+            .avis .comment{
+                font-size: 0.9em;
+                padding: 10px 0;
+            }
+            .avis .comment .orange-gras { 
+                font-weight: bold; 
+                background: lightblue; 
+                border-radius:5px; 
+                padding: 5px 7px;
+            }
+            .avis .c_left,
+            .avis .c_right{ padding: 0; }
+            .avis .c_right{ text-align: right;}
+            .avis .message{margin: 10px 0 10px 0;}
+            .avis .comment .bleu-gras a{
+                color: #333;
+                font-weight: bold; 
+                background: #ffdfdf; 
+                border-radius:5px; 
+                padding: 5px 7px;
+            }
+.avis .c_right { padding-top: 5px;}
 
 /* **********************************
 footer
