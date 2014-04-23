@@ -575,6 +575,67 @@ SUB part / Global Val updown
           .product_bottom_left {
             float:right;
           }
+          .product_page .blowbox{
+            border: 1px solid #ddd; 
+            margin: 20px 0; 
+            padding:10px;
+          }
+
+          .product_page .blowbox h4{text-align: center;}
+          .product_page .blowbox h4 a{color: #ff1674;font-weight: bolder;}
+          .product_page .blowbox .lien-non-ss {padding: 5px; font-size: 0.9em;}
+          .product_page .blowbox .lien-non-ss:hover{
+            border-radius: 5px;
+            background: #daf8ff;
+            text-decoration: none;
+          }
+          .product_page .table-border-noir {
+            margin: 20px 0;
+
+          }
+          .product_page .table-border-noir td:hover{background: #72bbd6;}
+          .product_page .table-border-noir td{
+            background: #f0fbff;
+            padding: 5px;
+            margin: 5px;
+            border: 2px solid white;
+          }
+          .product_page .tab-produits .prix{
+            color: red;
+            font-size: 1.4em;
+            font-weight: bolder;
+          }
+          .product_page .tab-produits .texte-normal {
+            font-size: 0.9em
+          }
+          .product_page .tab-produits .texte-normal a:hover{
+            color: #428bca;
+          }
+          .product_page .tab-produits .bleu-gras img { margin: 20px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           .achat_fitness h2 { font-size:1.7em; }
           .achat_fitness .ach_l,
