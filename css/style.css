@@ -818,11 +818,39 @@ SUB part / Global Val updown
               -webkit-transition: background 1s;
               transition: background 2s;}
             .cgv em {font-weight:bolder;}
+            .panier .panier_table tr:hover .blink{ color: #0198FF;}
+            .panier .panier_table td{ vertical-align: middle; text-align: center;}
+            .panier .panier_table  i {color: red;}
+            .panier .panier_table  i:hover {color: black;}
+            .panier .panier_table .model .col-md-8 h5{color: #0198FF; font-size: 0.9em;}
+            .panier .panier_table .model .col-md-4 img{float: none;}
+            .panier .panier_table .model{padding: 10px 0;}
+            .panier .panier_table .model .col-md-4 {padding: 0;}
+            .panier .panier_table .model .col-md-8{ text-align: left;}
+            .panier .panier_table .model .bleu-gras {color: #FF0066; font-weight: bolder;}
+            .panier .panier_table .model .orange-gras {color: #0198FF;font-weight: bolder;}
+            .panier .panier_table .total_td{text-align: right !important;}
+            .panier .panier_table .total_td2 {text-align: right;}
+            .panier .panier_table td{border-bottom: 1px solid #ccc;}
+            .panier .panier_table .total_td,
+            .panier .panier_table .total_td2{
+              border: none; 
+              font-size: 0.9em;
+              padding-top: 3px;
+              padding-bottom: 0;
 
-
-
-
-
+            }
+            .panier .panier_table .total_td2:hover {background:#cbecf8;}
+            .panier .panier_table tr:last-of-type {
+              color: #FF0066;
+              font-size: 1.1em;
+              font-weight: bolder;
+              border-bottom: 5px solid #ccc;
+            }
+            .panier .panier_table tr:last-of-type td{
+              padding-bottom: 10px;
+              padding-top: 10px;
+            }
 
 
 
