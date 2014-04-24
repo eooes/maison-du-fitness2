@@ -613,7 +613,12 @@ SUB part / Global Val updown
           }
           .product_page .tab-produits .bleu-gras img { margin: 20px 0;}
 
-
+          .gatantie .bleu-gras {
+            font-size: 1.1em;
+            font-weight: bolder;
+            color: #ff1674;
+            margin-top: 10px;
+          }
 
 
 
