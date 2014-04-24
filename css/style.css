@@ -981,6 +981,9 @@ footer .explain3 .adsilde {
   border-radius: 12px; 
   padding: 10px 0;
 }
+footer .adsilde img{
+  padding-left: 40px;
+}
 footer .explain3 .footer_social{
   padding-top: 20px;
 }
