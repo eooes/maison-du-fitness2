@@ -852,10 +852,35 @@ SUB part / Global Val updown
               padding-top: 10px;
             }
 
+.real_cat .threecol{
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+    border-right: 3px solid #56d2d8;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.real_cat .threecol:hover {background-color: #edfeff;}
 
-
-
-
+.real_cat span{
+    font-size: 1.2em;
+    border-radius: 50%;
+    background: #ff1674;
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.cat_right {
+    float: right;
+    text-align: right;
+}
+.cat_right p{text-decoration: line-through;margin-bottom: 0;}
+.cat_right h3{margin-top: 0;font-size: 1.4em;font-weight:bolder;}
+.threecol h5{font-weight:bolder;}
+.real_cat h4{font-weight: bolder; font-size: 1.4em; color: #428bca;}
 
 
 
