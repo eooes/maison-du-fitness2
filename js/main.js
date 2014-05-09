@@ -1,4 +1,6 @@
 
+
+
 $(function () {
 
 $(".rslides").responsiveSlides({
@@ -10,7 +12,6 @@ $(".rslides").responsiveSlides({
       });
     
 });
-
 
 
 /*! http://responsiveslides.com v1.54 by @viljamis */
