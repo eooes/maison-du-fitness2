@@ -852,39 +852,104 @@ SUB part / Global Val updown
               padding-top: 10px;
             }
 
-.real_cat .threecol{
-    text-align: center;
-    font-size: 0.8em;
-    margin-bottom: 30px;
-    border-right: 3px solid #56d2d8;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-.real_cat .threecol:hover {background-color: #edfeff;}
+            .real_cat .threecol{
+                text-align: center;
+                font-size: 0.8em;
+                margin-bottom: 30px;
+                border-right: 3px solid #56d2d8;
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+            .real_cat .threecol:hover {background-color: #edfeff;}
 
-.real_cat span{
-    font-size: 1.2em;
-    border-radius: 50%;
-    background: #ff1674;
-    font-weight: bold;
-    padding-top: 10px;
-    color: white;
-    width: 40px;
-    height: 40px;
-    float: left;
-}
-.cat_right {
-    float: right;
-    text-align: right;
-}
-.cat_right p{text-decoration: line-through;margin-bottom: 0;}
-.cat_right h3{margin-top: 0;font-size: 1.4em;font-weight:bolder;}
-.threecol h5{font-weight:bolder;}
-.real_cat h4{font-weight: bolder; font-size: 1.4em; color: #428bca;}
-
-
+            .real_cat span{
+                font-size: 1.2em;
+                border-radius: 50%;
+                background: #ff1674;
+                font-weight: bold;
+                padding-top: 10px;
+                color: white;
+                width: 40px;
+                height: 40px;
+                float: left;
+            }
+            .cat_right {
+                float: right;
+                text-align: right;
+            }
+            .cat_right p{text-decoration: line-through;margin-bottom: 0;}
+            .cat_right h3{margin-top: 0;font-size: 1.4em;font-weight:bolder;}
+            .threecol h5{font-weight:bolder;}
+            .real_cat h4{font-weight: bolder; font-size: 1.4em; color: #428bca;}
 
 
+
+
+
+
+
+          .login h2{margin-bottom: 30px;}
+          .login .panel-body{
+            border: 1px solid #428bca;
+            padding: 10px;
+          }
+          .login .panel-body2 {
+            padding: 10px;
+          }
+          .login .panel-body p{
+            font-size: 0.9em;
+            color: #888;
+          }
+          .login .btn-curve {
+            -webkit-border-radius: 0 14px 14px 0;
+            -moz-border-radius: 0 14px 14px 0;
+            border-radius: 0 14px 14px 0;
+          }
+          .login .xxbb {
+            -webkit-border-radius: 14px 0 0 14px;
+            -moz-border-radius: 14px 0 0 14px;
+            border-radius: 14px 0 0 14px;
+          }
+          .loginbox h6 {color: #ff6666;}
+          .loginbox .row {margin: 0;}
+          .loginbox .col-xs-2,
+          .loginbox .col-xs-9{padding: 0;}
+          .login .panel-title {font-weight: bold;}
+          .loginbox .panel { border: none;}
+          .loginbox .input-group {margin-bottom: 25px}
+          #btn-login {float: right;}
+          #loginform .clearfix {padding-bottom: 10px;}
+          #loginform small {color: #ff5e5e}
+          #loginform .rightme {text-align: right;}
+
+
+
+          .etablir .summary_box .clearfix div.col-md-9:hover { 
+            background: #e34949;
+            font-weight: bold;
+            color: white;
+          }
+          .etablir .summary_box button {margin-top: 10px;}
+          .etablir .copong-danger{border: 1px solid #f2dede;
+            text-align: center;}
+
+          .etablir .xxbb {
+            border: 5px solid #ffeeee;
+            -webkit-border-radius: 14px;
+            -moz-border-radius: 14px;
+            border-radius: 14px;
+            background: repeating-linear-gradient(
+              45deg,
+              #ffe6e6,
+              #ffe6e6 10px,
+              #ffdede 10px,
+              #ffdede 20px
+            );
+            width: 180px;
+            font-weight: bolder;
+            text-align: center;
+          }
+          .etablir .code_cover { width:180px; margin:auto;}
 
 
 
@@ -1085,7 +1150,8 @@ all media Q
     width: auto;
     text-align: center;
   }
-
+  .sm-leftme {text-align: left !important;margin-left: -15px;}
+  .sm-right-mid {margin-left: 15px;}
 }
 @media (max-width: 768px){
   .main_menu .panel-title a{
