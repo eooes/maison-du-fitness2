@@ -953,11 +953,155 @@ SUB part / Global Val updown
 
 
 
+          .recap_com .confirmaddress .panel-body{
+            font-size: 0.8em;
+          }
+
+          .recap_com .confirmaddress .panel-body:hover{
+            background: #ffe8f1;
+          }
 
 
 
 
 
+
+
+
+            .tooltipme {
+            background: #ffc4d3;
+            margin-left: 5px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1000;
+            font-size: 0.75em;
+            }
+            .recap_com .margint10 {margin-top: 20px;}
+
+
+
+
+
+
+              .checkboxFive {
+                position: relative;
+              }
+              .checkboxFive span {padding-left: 20px;}
+              .checkboxFive label {
+                cursor: pointer;
+                position: absolute;
+                width: 25px;
+                height: 25px;
+                top: 0;
+                  left: 0;
+                background: #eee;
+                border:1px solid #ddd;
+              }
+              .checkboxFive label:after {
+                opacity: 0.2;
+                content: '';
+                position: absolute;
+                width: 9px;
+                height: 5px;
+                background: transparent;
+                top: 6px;
+                left: 7px;
+                border: 3px solid #333;
+                border-top: none;
+                border-right: none;
+
+                -webkit-transform: rotate(-45deg);
+                -moz-transform: rotate(-45deg);
+                -o-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+              }
+              .checkboxFive label:hover::after {
+                opacity: 0.5;
+              }
+              .checkboxFive input[type=checkbox]:checked + label:after {
+                opacity: 1;
+              }
+
+              .recap_com .panier_table tr:last-of-type td {
+                padding-bottom: 10px;
+                padding-top: 10px;
+                font-weight: bolder;
+                color: #ff1674;
+              }
+              .recap_com .panier_table td {
+                vertical-align: middle;
+              }
+              .recap_com .panier_table .model .bleu-gras {
+                color: #FF0066;
+                font-weight: bolder;
+              }
+
+              .recap_com .panier_table .model .col-md-8 h5 {
+                color: #0198FF;
+                font-size: 0.9em;
+              }
+              .recap_com  .each {text-align: center;}
+
+
+
+div.clear
+{
+    clear: both;
+}
+
+div.product-chooser{
+    
+}
+
+    div.product-chooser.disabled div.product-chooser-item
+  {
+    zoom: 1;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    cursor: default;
+  }
+
+  div.product-chooser div.product-chooser-item{
+    padding: 11px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #efefef;
+    margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10x;
+  }
+  
+  div.product-chooser div.product-chooser-item.selected{
+    border: 4px solid #428bca;
+    background: #efefef;
+    padding: 8px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  
+    div.product-chooser div.product-chooser-item img{
+      padding: 0;
+    }
+    
+    div.product-chooser div.product-chooser-item span.title{
+      display: block;
+      margin: 10px 0 5px 0;
+      font-weight: bold;
+      font-size: 12px;
+    }
+    
+    div.product-chooser div.product-chooser-item span.description{
+      font-size: 12px;
+    }
+    
+    div.product-chooser div.product-chooser-item input{
+      position: absolute;
+      left: 0;
+      top: 0;
+      visibility:hidden;
+    }
 
 
 
@@ -1152,6 +1296,11 @@ all media Q
   }
   .sm-leftme {text-align: left !important;margin-left: -15px;}
   .sm-right-mid {margin-left: 15px;}
+  .etablir .summary_box .clearfix div.col-md-9 { 
+    background: #257ecb;
+    font-weight: bold;
+    color: white;
+  }
 }
 @media (max-width: 768px){
   .main_menu .panel-title a{

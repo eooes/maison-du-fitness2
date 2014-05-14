@@ -13,6 +13,16 @@ $(".rslides").responsiveSlides({
     
 });
 
+$(function(){
+    $('.product-chooser').not('.disabled').find('.product-chooser-item').on('click', function(){
+        $(this).parent().parent().find('.product-chooser-item').removeClass('selected');
+        $(this).addClass('selected');
+        $(this).find('input[type="radio"]').prop("checked", true);
+
+    });
+});
+
+
 
 /*! http://responsiveslides.com v1.54 by @viljamis */
 (function(c,I,B){c.fn.responsiveSlides=function(l){var a=c.extend({auto:!0,speed:500,timeout:4E3,pager:!1,nav:!1,random:!1,pause:!1,pauseControls:!0,prevText:"  ",nextText:" ",maxwidth:"",navContainer:"",manualControls:"",namespace:"rslides",before:c.noop,after:c.noop},l);return this.each(function(){B++;var f=c(this),s,r,t,m,p,q,n=0,e=f.children(),C=e.size(),h=parseFloat(a.speed),D=parseFloat(a.timeout),u=parseFloat(a.maxwidth),g=a.namespace,d=g+B,E=g+"_nav "+d+"_nav",v=g+"_here",j=d+"_on",
