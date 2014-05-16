@@ -450,6 +450,7 @@ SUB part / global tabs
 /* ------------------------------
 SUB part / Global Val updown 
 ------------------------------ */
+.globalcentericon {font-size: 2em; text-align: center;}
 .updown > i {
     margin-top: 4px;
     display: inline-block;
@@ -619,27 +620,6 @@ SUB part / Global Val updown
             color: #ff1674;
             margin-top: 10px;
           }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
           .achat_fitness h2 { font-size:1.7em; }
@@ -883,11 +863,6 @@ SUB part / Global Val updown
             .real_cat h4{font-weight: bolder; font-size: 1.4em; color: #428bca;}
 
 
-
-
-
-
-
           .login h2{margin-bottom: 30px;}
           .login .panel-body{
             border: 1px solid #428bca;
@@ -923,7 +898,6 @@ SUB part / Global Val updown
           #loginform .rightme {text-align: right;}
 
 
-
           .etablir .summary_box .clearfix div.col-md-9:hover { 
             background: #e34949;
             font-weight: bold;
@@ -953,19 +927,9 @@ SUB part / Global Val updown
 
 
 
-          .recap_com .confirmaddress .panel-body{
-            font-size: 0.8em;
-          }
+          .recap_com .confirmaddress .panel-body{font-size: 0.8em;}
 
-          .recap_com .confirmaddress .panel-body:hover{
-            background: #ffe8f1;
-          }
-
-
-
-
-
-
+          .recap_com .confirmaddress .panel-body:hover{background: #ffe8f1;}
 
 
             .tooltipme {
@@ -976,12 +940,8 @@ SUB part / Global Val updown
             z-index: 1000;
             font-size: 0.75em;
             }
-            .recap_com .margint10 {margin-top: 20px;}
-
-
-
-
-
+             .margint10 {margin-top: 20px;}
+             .marginover {margin: 10px;}
 
               .checkboxFive {
                 position: relative;
@@ -1042,6 +1002,53 @@ SUB part / Global Val updown
                 font-size: 0.9em;
               }
               .recap_com  .each {text-align: center;}
+              .infobox1{padding: 15px 15px; background:#d1e2f1; }
+              .infobox1 span {color: #ff1674;font-weight: bold;}
+              .coverinfobox {margin: 20px 0;}
+              .coverinfobox .ad_right {
+                font-weight: bold;
+                color: #ff1674;
+              }
+
+
+              .espace .loginbox button.btn { margin-top: 6px;}
+              .espace .panel-danger .panel-body {border: 1px solid #EBCCD1; text-align: center; }
+              .espace h4 {padding: 10px 0;}
+              .espace .espace3row{margin:10px 0;}
+              .espace .espaceinfospace {margin: 10px 0;}
+              .espace .espaceinfo .col-md-4{
+                font-size: 0.8em;
+              }
+              .espace .espaceinfospace .active,
+              .espace .espaceinfospace .inactive{ 
+                text-align: right;
+                font-size: 2em;
+                border-radius: 50%;
+                background: #ff1674;
+                font-weight: bold;
+                padding-top: 10px;
+                color: white;
+                width: 40px;
+                height: 40px;
+              }
+              .espace .espaceinfospace .inactive {background: #bbb;}
+
+              .espace .espaceinfospace .active:hover,
+              .espace .espaceinfospace .inactive:hover{
+                background: #428bca;
+              }
+
+              .espace .espaceinfospace .col-md-offset-2{
+                font-weight: bold;
+                color: #ff1674;
+                padding-top: 10px;
+              }
+              .espace table.showtable {
+                font-size: 0.8em;
+              }
+              .espace table.showtable td{padding: 5px;}
+
+              .cardpaid .panel-body .col-md-4 {text-align: center; padding: 10px 0;}
 
 
 
@@ -1102,6 +1109,10 @@ div.product-chooser{
       top: 0;
       visibility:hidden;
     }
+
+
+
+    .login .covtable {padding: 0;}
 
 
 

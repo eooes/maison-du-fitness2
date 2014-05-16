@@ -27,6 +27,23 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 
+    <script type="text/javascript">
+
+    window.addEventListener("load", function () {
+    var cover_tooltipmes = document.getElementsByClassName("cover_tooltipme");
+    for (var i = 0; i < cover_tooltipmes.length; i++) {
+        cover_tooltipmes[i].addEventListener("mouseover", function () {
+            var  tooltipme = this.getElementsByClassName(" tooltipme")[0];
+             tooltipme.removeAttribute("style");
+        });
+        cover_tooltipmes[i].addEventListener("mouseout", function () {
+            var  tooltipme = this.getElementsByClassName(" tooltipme")[0];
+             tooltipme.style.display = "none";
+        });
+      }
+    });
+
+    </script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -864,66 +881,190 @@
 
 
 
-<div class="col-md-7 col-sm-8  main_content login clearfix">
+<div class="col-md-7 col-sm-8  main_content login recap_com espace clearfix">
     <div class="row nobg">
         <div class="nobg btn-group btn-breadcrumb">
             <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
             <a href="#" class="btn btn-default">Maison du Fitness</a>
-            <a href="#" class="btn btn-default">Identification</a>
+            <a href="#" class="btn btn-default">Mon Espace Client</a>
         </div>
   </div>
 
 <!-- <h6><a href="#" >Maison du Fitness</a> |  Conditions Générales de Vente</h6> -->
-  <h2>Identification</h2>
+  <h2>Mon Espace Client</h2>
+<p>Bonjour Cha,<br>
+Bienvenue sur votre espace client Maison du Fitness. Vous pouvez gérer ici vos informations personnelles, voir l'état de vos commandes et correspondre avec nous en toute simplicité.</p>
+<h4>Mes informations personnelles</h4>
+<div class="clearfix">
+<div class="loginbox  col-md-6 confirmaddress">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+              <i class="glyphicon glyphicon-map-marker"></i>Adresse de facturation
+            </h3>
+        </div>
+        <div class="panel-body">
+                            TEST SYSTEM CHAWANAN<br>
+                            TESTING System<br>
+                            TESTING System<br>
+                            10101011 TESTING SYSTEM<br>
+                            France Continentale / Sf Corse<br>
+                            <button type="button" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-wrench"></i>Modifier </button>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="loginbox  col-md-6 confirmaddress">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+              <i class="glyphicon glyphicon-user"></i>Autres informations
+            </h3>
+        </div>
+        <div class="panel-body">
+                            Civilité  : Mr<br>
+                            Téléphone fixe : 6865859960<br>
+                            Téléphone mobile : 6865859960<br>
+                            Date de naissance : 11/11/11<br>
+                            Pseudonyme : meeggoobb <br>
+                            <button type="button" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-wrench"></i>Modifier </button>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="clearfix">
+
+<div class="loginbox  col-md-6 confirmaddress">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+              <i class="glyphicon glyphicon-envelope"></i>Newsletter
+            </h3>
+        </div>
+        <div class="panel-body">
+                            Newsletter Maison du Fitness<br>
+                            <button type="button" class="btn btn-warning btn-xs">
+                              <i class="glyphicon glyphicon-wrench"></i>Modifier</button>
+        </div>
+    </div>
+</div>
+
+<div class="loginbox  col-md-6 confirmaddress">
+    <div class="panel panel-danger">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+              <i class="glyphicon glyphicon-cog"></i>Login system
+            </h3>
+        </div>
+        <div class="panel-body">
+                            <b>Login</b> : eemachine@msn.com<br>
+                            <button type="button" class="btn btn-danger btn-xs">
+                              <i class="glyphicon glyphicon-wrench"></i>Modifier mon mot de passe </button>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="loginbox">
 
     <div class="panel panel-primary">
         <div class="panel-heading">
             <h3 class="panel-title">
-                        <i class="glyphicon glyphicon-user"></i>Identifiez-vous</h3>
+              <i class="glyphicon glyphicon-tasks"></i>Etat de ma dernière commande
+            </h3>
         </div>
-        <div class="panel-body">
-            <p>Vous avez déjà un compte client Maison du Fitness ? Merci de vous identifier.
-                <p>
-                    <div class="row">
+        <div class="panel-body espaceinfo">
+          <div class="clearfix espace3row">
+            <div class=" col-md-4 "><b>Commande n°</b> 140515-MF21347 </div>
+            <div class=" col-md-4 "><b>Paiement </b>: Chèque 3x  </div>
+            <div class=" col-md-4 "><b>Montant </b>: 244.95 €</div>
+        </div>
 
-                        <div class="panel-body2">
 
-                            <div class="alert alert-danger col-sm-12 ">
-                                <span class="glyphicon glyphicon-remove"></span>
-                                Adresse ou mot de passe faux / <a href="#" class="alert-link">Mot de passe oublié?</a>
-                            </div>
 
-                            <div class="alert alert-warning col-sm-12">
-                                <span class="glyphicon glyphicon-warning-sign"></span>
-                                Veuillez saisir votre adresse mail avant de continuer.
-                            </div>
+          <b>Modalité de paiement</b> : 3 échéances de 81.65 € le 15/05/2014, 15/06/2014 et 15/07/2014
 
-                            <form id="loginform" class="form-horizontal" role="form">
+          <div class="clearfix espaceinfospace">
+            <div class="col-md-1 col-lg-1 col-xs-1 col-sm-1 active">1</div>
+            <div class="col-md-11 col-lg-11 col-xs-10 col-sm-10">Nous avons bien enregistré votre commande le 15/05/2014 à 7:27</div>
+          </div>
 
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                    <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Email">
+          <div class="clearfix espaceinfospace">
+            <div class="col-md-1 col-lg-1 col-xs-1 col-sm-1 active">2</div>
+            <div class="col-md-11 col-lg-11 col-xs-10 col-sm-10">
+Attente de votre règlement à l'ordre de Maison du Fitness et d'une copie de votre pièce d'identité à :<br>
+<p class="address col-md-offset-2 ">La Maison du Fitness<br>
+219, Avenue de Provence<br>
+13730 Saint-Victoret<br>
+France</p>
+            </div>
+          </div>
 
-                                </div>
+          <div class="clearfix espaceinfospace">
+            <div class="col-md-1 col-lg-1 col-xs-1 col-sm-1 inactive">3</div>
+            <div class="col-md-11 col-lg-11 col-xs-10 col-sm-10">Nous confirmons la réception de votre règlement.
+Votre commande est en cours de préparation.</div>
+          </div>
 
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                    <input id="login-password" type="password" class="form-control" name="password" placeholder="Mot de passe">
-                                </div>
+          <div class="clearfix espaceinfospace">
+            <div class="col-md-1 col-lg-1 col-xs-1 col-sm-1 inactive">4</div>
+            <div class="col-md-11 col-lg-11 col-xs-10 col-sm-10">Votre commande a quitté notre service expédition<br>
+              Mode de livraison : <b>Standard Colissimo</b>
+</div>
+          </div>
 
-                                <div class="form-group">
-                                    <div class="col-sm-12 controls">
-                                        <a href="#" class="btn-forgetpass">Forget password</a>
-                                        <a id="btn-login" href="#" class="btn btn-success">Continuer</a>
-                                        
-
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
         </div>
     </div>
 </div>
@@ -937,25 +1078,52 @@
 
 
 
+<div class="loginbox">
 
 
 
 
+<div class="panel panel-primary">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+
+                <h3 class="panel-title">
+              <i class="glyphicon glyphicon-inbox"></i>Mes commandes
+            </h3>
+
+</div>
+
+  <!-- Table -->
+   <div class="panel-body covtable">
+<table width="100%" border="0" cellspacing="2" cellpadding="4" class="showtable">
+                            <tbody><tr class="blanc-sur-fond-bleu">
+                              <td align="center"><b>Date</b></td>
+                              <td align="center"><b>Référence</b></td>
+                              <td align="center"><b>Paiement</b></td>
+                              <td align="right"><b>Montant</b></td>
+                              <td align="center"><b>Etat</b></td>
+                              <td align="center"><b>Suivi</b></td>
+                            </tr>
+                            
+                            <tr>
+                              <td align="center">15/05/2014</td>
+                              <td align="center" nowrap="">140515-MF21347</td>
+                              <td align="center">Chèque 3x</td>
+                              <td align="right">244.95&nbsp;€</td>
+                              <td align="center">Votre règlement ne nous est pas encore parvenu</td>
+                              <td align="center"><a href="detail_commande.php?id_commande=21347" class="lien_menu">
+                                <i class="glyphicon glyphicon-eye-open"></i></a></td>
+                            </tr>
+                            
+                          </tbody></table>
+                        </div>
+</div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+  
+</div>
 
 
 <div class="loginbox">
@@ -963,244 +1131,52 @@
     <div class="panel panel-primary">
         <div class="panel-heading">
             <h3 class="panel-title">
-                        <i class="gglyphicon glyphicon-plus"></i> Pas encore client ?</h3>
+              <i class="glyphicon glyphicon-inbox"></i>Message
+            </h3>
         </div>
-        <div class="panel-body">
-            <p>Vous n'avez pas encore de compte client Maison du Fitness ? Merci de remplir les champs suivants pour en créer un.
-                <p>
+        <div class="panel-body covtable">
 
 
-                    <div class="row">
+<div class="marginover">
+<b>Messages</b> : pas de messages<br>
+</div>
 
-                        <div class="panel-body2">
 
-                            <div class="alert alert-danger col-sm-12 ">
-                                <span class="glyphicon glyphicon-remove"></span>
-                                Veuillez saisir votre XXXXX avant de continuer.
-                            </div>
+<table width="100%" border="0" cellspacing="2" cellpadding="4" class="showtable">
+                            <tbody><tr class="blanc-sur-fond-bleu">
+                              <td align="center"><b>Emetteur</b></td>
+                              <td align="center"><b>N° dossier</b></td>
+                              <td align="center"><b>Date</b></td>
+                              <td align="center"><b>Service</b></td>
+                              <td align="center"><b>Objet</b></td>
+                              <td align="center"><b>Etat</b></td>
+                              <td align="center"><b>Lire</b></td>
+                            </tr>
                             
-                            <div class="alert alert-danger col-sm-12 ">
-                                <span class="glyphicon glyphicon-calendar"></span>
-                                Votre date de naissance ne respecte pas le format JJ/MM/AAAA. Merci de corriger votre saisie.
-
-                            </div>
-
-                            <div class="alert alert-danger col-sm-12 ">
-                                <span class="glyphicon glyphicon-phone"></span>
-                                Veuillez saisir votre n° de téléphone fixe ou mobile avant de continuer.
-
-                            </div>
+                            <tr>
+                              <td align="center" nowrap=""> Vous</td>
+                              <td align="center" nowrap=""> MF05140019</td>
+                              <td align="center" nowrap=""> 16/05/2014</td>
+                              <td align="center"> Service Clients</td>
+                              <td align="center"> TESTING </td>
+                              <td align="center" nowrap=""> En cours</td>
+                              <td align="center" nowrap="">
+                                <a href="detail_message.php?id_message=12242">
+                                <i class="glyphicon glyphicon-eye-open"></i>
+                                </a>
+                              </td>
+                            </tr>
                             
-                            <div class="alert alert-warning col-sm-12">
-                                <span class="glyphicon glyphicon-warning-sign"></span>
-                                L'adresse email que vous avez saisie n'est pas valide. Merci de la corriger avant de continuer.
-                            </div>
-
-                            <form id="loginform" role="form">
+                          </tbody></table>
 
 
-
-
-<div class="clearfix">
-  <div class="col-md-3">Société :</div>
-  <div class="btn-group col-md-9 col-sm-12 col-xs-12">
-    <input type="text" id="" name="" class="form-control input-sm"> 
-    <small>Si vous êtes un particulier, laissez ce champs vide.</small>
-  </div>
-</div>
-
-<div class="clearfix">
-<div class="col-md-3">Civilité * :</div>
-
-<div class="btn-group col-md-9 col-xs-12" data-toggle="buttons">
-  <label class="btn btn-sm btn-primary col-xs-4">
-    <input type="radio" name="options" id="option1">Mlle
-  </label>
-  <label class="btn btn-sm btn-primary col-xs-4">
-    <input type="radio" name="options" id="option2"> Mme
-  </label>
-  <label class="btn btn-sm btn-primary col-xs-4">
-    <input type="radio" name="options" id="option3"> Mr
-  </label>
-</div>
-</div>
-
-<div class="clearfix">
-  <div class="col-md-3">Nom * :</div>
-  <div class="btn-group col-md-9 col-sm-12 col-xs-12">
-    <input type="text" id="" name="" class="form-control input-sm">
-  </div>
-</div>
-
-<div class="clearfix">
-  <div class="col-md-3">Prénom * :</div>
-  <div class="btn-group col-md-9 col-sm-12 col-xs-12">
-    <input type="text" id="" name="" class="form-control input-sm">
-  </div>
-</div>
-
-<div class="clearfix">
-  <div class="col-md-3">Date de naissance :</div>
-  <div class="btn-group col-md-4 col-sm-12 col-xs-12">
-    <input type="text" id="" name="" class="form-control input-sm col-md-4">
-  </div>
-  <div class="col-md-3 sm-right-mid">
-    <small>Format : JJ/MM/AAAA</small>
-  </div>
-</div>
-
-<div class="clearfix">
-  <div class="col-md-3">Adresse * :</div>
-  <div class="btn-group col-md-9 col-sm-12 col-xs-12">
-    <textarea class="form-control" rows="3"></textarea>
-    <small>Indiquez ici votre adresse de facturation. Vous aurez la possibilité de choisir une adresse de livraison différente lors de l'étape suivante. </small>
-  </div>
-</div>
-
-
-<div class="clearfix">
-  <div class="col-md-3">Complément d'adresse </div>
-  <div class="btn-group col-md-9 col-sm-12 col-xs-12">
-    <input type="text" id="" name="" class="form-control input-sm">
-  </div>
-</div>
-
-
-<div class="clearfix">
-  <div class="col-md-3">Code postal * : </div>
-  <div class="btn-group col-md-2 col-sm-12 col-xs-12">
-    <input type="text" id="" name="" class="form-control input-sm">
-  </div>
-  <div class="col-md-2 rightme sm-leftme">Ville * : </div>
-  <div class="btn-group col-md-5 col-sm-12 col-xs-12">
-    <input type="text" id="" name="" class="form-control input-sm">
-  </div>
-</div>
-
-<div class="clearfix">
-  <div class="col-md-3">Pays / Région * :</div>
-  <div class="btn-group col-md-9 col-sm-12 col-xs-12">
-    <select class="form-control input-sm">
-      <option value="9">France Continentale / Sf Corse</option> 
-      <option value="5">Belgique</option> 
-      <option value="7">France  / Corse</option> 
-      <option value="16">Luxembourg</option> 
-      <option value="18">Monaco</option> 
-      <option value="127">Saint-Martin</option> 
-      <option value="25">Suisse</option> 
-    </select>
-  </div>
-</div>
-
-
-<div class="clearfix">
-  <div class="col-md-3">Téléphone fixe :</div>
-  <div class="btn-group col-md-4 col-sm-12 col-xs-12">
-    <input type="text" id="" name="" class="form-control input-sm col-md-4">
-  </div>
-  <div class="col-md-5">
-    <small>Impératif pour la livraison : téléphone fixe et/ou mobile.</small>
-  </div>
-</div>
-
-<div class="clearfix">
-  <div class="col-md-3">Téléphone mobile :</div>
-  <div class="btn-group col-md-4 col-sm-12 col-xs-12">
-    <input type="text" id="" name="" class="form-control input-sm col-md-4">
-  </div>
-</div>
-
-
-
-<div class="clearfix">
-  <div class="col-md-3">Email * :</div>
-  <div class="btn-group col-md-9 col-sm-12 col-xs-12">
-    <input type="text" id="" name="" class="form-control input-sm">
-  </div>
-</div>
-
-
-<div class="clearfix">
-  <div class="col-md-3">Mot de passe * :</div>
-  <div class="btn-group col-md-4 col-sm-12 col-xs-12">
-    <input type="password" id="" name="" class="form-control input-sm col-md-4">
-  </div>
-  <div class="col-md-5">
-    <small>4 caractères minimum.</small>
-  </div>
-</div>
-
-
-<div class="clearfix">
-  <div class="col-md-3">Confirmation mot de passe * :</div>
-  <div class="btn-group col-md-4 col-sm-12 col-xs-12">
-    <input type="password" id="" name="" class="form-control input-sm col-md-4">
-  </div>
-  <div class="col-md-5">
-    <small>Saisissez de nouveau votre mot de passe.</small>
-  </div>
-</div>
-
-
-<div class="clearfix">
-  <div class="col-md-3">Pseudonyme :</div>
-  <div class="btn-group col-md-9 col-sm-12 col-xs-12">
-    <input type="text" id="" name="" class="form-control input-sm">
-    <small>Votre pseudonyme sera affiché sur le site si vous donnez un avis sur un produit.</small>
-  </div>
-</div>
-
-
-
-<div class="clearfix">
-<div class="col-md-3">Newsletter inscription :</div>
-
-<div class="btn-group col-md-9 col-xs-12" data-toggle="buttons">
-  <label class="btn btn-sm btn-primary col-xs-6">
-    <input type="checkbox" name="options" id="checkbox1">Maison du Fitness 
-  </label>
-  <label class="btn btn-sm btn-primary col-xs-6">
-    <input type="checkbox" name="options" id="checkbox2">Nos partenaires
-  </label>
-</div>
-</div>
-<div class="clearfix">
-  <hr>
-<small>* : Champs obligatoires</small>
-
-<a id="btn-login" href="#" class="btn btn-success">Continuer</a>
-
-</div>
-
-
-
-
-
-
-                            </form>
-
-                        </div>
-
-
-
-
-
-                    </div>
-
-
+                            <button type="button" class=" marginover btn btn-warning btn-xs">
+                              <i class="glyphicon glyphicon-envelope"></i>Envoyer un message
+ </button>
 
         </div>
-
     </div>
-
 </div>
-
-
-
-
-
-
-
 
 
 
