@@ -1478,3 +1478,107 @@ table.compare i.glyphicon-ok{
 .small-tab-orange-corps-td {padding-left: 20px;padding-right: 20px;}
 .small-tab-orange-corps-td{border: 1px #ccc solid;}
 table.compare .prix {font-size: 1.5em; font-weight: bolder;color: #ff1674;}
+
+
+
+
+
+
+
+/* **********************************
+NEW adding elements
+********************************** */
+#Tapis .col-md-4 {
+	text-align: center;
+}
+
+#Tapis .col-md-4 a{
+	text-decoration: none;
+}
+
+#Tapis .col-md-4 .prix {
+	color: red;
+	font-size: 1.4em;
+	font-weight: bolder;
+}
+
+#Tapis .col-md-12 img {
+	padding: 25px 0;
+}
+
+#Tapis .tabis_info{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+
+@media (max-width: 992px) {
+	#Tapis .col-md-4 h5{
+		font-weight: bolder;
+		font-size: 1.3em;
+		text-align: left;
+		margin-top: 0px;
+	}
+	#Tapis .col-sm-12{
+		padding: 0;
+	}
+	#Tapis .col-md-4 {
+		border-bottom: 1px solid #ddd;
+	}
+	.newaddition .threecol {
+		border-bottom: 1px solid #ccc;
+		border-right: none !important;
+		border-left: none !important;
+		padding: 20px;
+	}
+	.newaddition .threecol h5{
+		font-size: 1.5em;
+	}
+	
+	
+}
+
+.newaddition .threecol {
+	text-align: center;
+}
+
+.newaddition .threecol img {
+	padding: 10px;
+}
+
+.newaddition span {
+	font-size: 1.2em;
+	border-radius: 50%;
+	background: #ff1674;
+	font-weight: bold;
+	padding-top: 10px;
+	color: white;
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+.newaddition .title_for_table{
+	background-color: #888888; 
+	color: white; 
+	font-weight: bolder; 
+	padding: 10px;
+}
+.newaddition .threecol {
+	border-right: 1px solid #ccc;
+	
+}
+
+
+
+
+/* **********************************
+NEW adding elements
+********************************** */
+@media (max-width: 992px) {
+	.hind_unhind {
+	  display: none !important;
+	  visibility: hidden !important;
+	}
+}
+
