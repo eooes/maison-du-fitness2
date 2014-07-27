@@ -137,6 +137,24 @@ top header
     vertical-align:top !important;
 }
 
+
+.tothetop {
+  background: rgba(200,200,200,0.5);
+  border-radius: 2px;
+  padding: 10px;
+  position: fixed;
+  top: 15px;
+  right: 30px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  z-index: 9999;
+}
+.tothetop:hover {background: rgba(100,100,100,0.5);}
+.tothetop:hover i{color: #eee !important;border-top: 2px solid #eee;}
+.tothetop i { color: #777 ; border-top: 2px solid #777;}
+.tothetop i:hover { color: #777 ;}
+
+
 /* **********************************
 middle part
 ********************************** */
@@ -310,6 +328,8 @@ middle part
           .cost_cat {
             text-align:right; margin-top:25px;
           }
+          .select_quan_r .enstock,
+          .select_quan_r .rupture { float: none !important;}
           .enstock{ 
             color: #74C365; 
             font-weight: bold; 

@@ -1,3 +1,22 @@
+$(document).ready(function(){
+ 
+ $(".tothetop").css("display", "none");
+ $(window).scroll(function(){
+    if($(window).scrollTop() > 100){
+    $(".tothetop").fadeIn("slow");}
+    else {
+        $(".tothetop").fadeOut("slow");}
+ });
+
+$('.tothetop').click(function() {
+ event.preventDefault();
+ $("html, body").animate({scrollTop:0},"slow");
+}); 
+
+
+});
+
+
 
 
 
