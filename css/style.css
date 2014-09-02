@@ -1602,3 +1602,19 @@ NEW adding elements
 	}
 }
 
+
+
+
+.panier .panier_table .model .ox1 {
+	text-align: left;
+}
+.panier .panier_table .model .col-md-12 img{float: none;}
+@media (min-width: 992px) and (max-width: 1170px) {
+	.panier .panier_table .model .ox1 {
+		text-align: left !important;
+	}
+	.cat_table .model img {
+		float: none;
+	}	
+}
+
